@@ -2,7 +2,9 @@
 
 Personal portfolio site built with React + Vite.
 
-Live site: **https://huangweiheng.github.io**
+Live site: **https://hwh006.github.io/huangweiheng.github.io/**
+
+> GitHub 账号是 `Hwh006`，仓库名是 `huangweiheng.github.io`，因此这是**项目站点**，不是 `https://huangweiheng.github.io`（该地址需要 GitHub 用户名为 `huangweiheng`，或把仓库改名为 `Hwh006.github.io` 使用 `https://hwh006.github.io`）。
 
 ## Project structure
 
@@ -43,10 +45,11 @@ git push origin main
 3. Branch: **main**, Folder: **/docs**
 4. Save
 
-The site will be available at https://huangweiheng.github.io within a few minutes.
+The site will be available at https://hwh006.github.io/huangweiheng.github.io/ within a few minutes.
 
 ## Notes
 
-- `base` is `/` because this is a **user/organization** site (`username.github.io`), not a project site.
+- `base` is `/huangweiheng.github.io/` because the repo is a **project site** under account `Hwh006`.
+- To use **https://hwh006.github.io** (root URL), rename the repo to `Hwh006.github.io` and set Vite `base` to `/`.
 - `404.html` is a copy of `index.html` so client-side routes (`/about`, `/contact`) work on refresh.
 - `.nojekyll` disables Jekyll processing so Vite asset paths work correctly.

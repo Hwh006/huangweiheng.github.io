@@ -1,10 +1,11 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// User site: https://huangweiheng.github.io — serve from repo /docs on main branch
+// Project site: https://hwh006.github.io/huangweiheng.github.io/
+// (Repo name ≠ GitHub username, so this is not a user root site.)
 export default defineConfig({
   plugins: [react()],
-  base: "/",
+  base: "/huangweiheng.github.io/",
   build: {
     outDir: "../docs",
     emptyOutDir: true,
